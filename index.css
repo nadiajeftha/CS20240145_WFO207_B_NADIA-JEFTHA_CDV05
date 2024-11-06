@@ -37,7 +37,7 @@ body {
   margin-left: 35px;
   transition: 0.3s;
 }
-
+/*green bright hover over nav bar text*/
 .navibar a:hover {
   color: #a2ad91;
   font-size: 16px;
@@ -45,9 +45,10 @@ body {
 }
 
 .home {
+  /*section 1 background picture*/
   height: 100vh;
   background: linear-gradient(to bottom, rgba(200, 200, 200, 0.1), #fcc9e4 80%),
-    url("pic1.jpg") no-repeat center center;
+    url("pic1.jpg") no-repeat center center; /*to blend in with rest of sections color*/
   background-size: cover;
   background-position: center;
   display: flex;
@@ -66,6 +67,7 @@ body {
   text-shadow: 0 0 10px #af9de6, 0 0 20px #af9de6, 0 0 30px #af9de6;
 }
 .home-content h3 {
+  /*"software developer" line glow*/
   padding: 10% 0;
   font-size: 32px;
   font-weight: 700;
@@ -99,6 +101,7 @@ body {
 }
 
 .btn-box a:hover {
+  /*green glow over btn hover*/
   color: #a2ad91;
   font-size: 18px;
   text-shadow: 0 0 10px #a2ad91, 0 0 20px #a2ad91, 0 0 30px #a2ad91;
@@ -129,9 +132,10 @@ body {
   transition: 3s;
 }
 
-.socials:hover {
-  color: transparent;
-  text-shadow: 0 0 10px #a2ad91, 0 0 20px #a2ad91, 0 0 30px #a2ad91;
+.socials a i:hover {
+  /*green glow hover of socials icon */
+  text-shadow: 0 0 10px #a2ad91, 0 0 20px #a2ad91, 0 0 30px #a2ad91,
+    0 0 40px #a2ad91, 0 0 50px #a2ad91;
 }
 
 .about,
@@ -139,4 +143,49 @@ body {
 .contact {
   padding: 50px;
   background-color: #fcc9e4;
+}
+
+.about {
+  padding: 100px 50px;
+  color: #333;
+}
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #5f2b40;
+  text-align: center;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.skills h3 {
+  font-size: 26px;
+  margin-top: 50px;
+  color: #5f2b40;
+  text-align: center;
+}
+
+.skills ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.skills li {
+  color: #333;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  font-weight: 600;
 }
