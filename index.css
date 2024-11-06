@@ -5,7 +5,7 @@
   font-family: "Georgia", "Times New Roman", "Times, serif";
 }
 body {
-  background: #fdbfdf;
+  background: #fcc9e4;
 }
 
 .header {
@@ -26,6 +26,7 @@ body {
   font-size: 20px;
   color: #af9de6;
   text-decoration: none;
+  text-shadow: 0 0 10px #af9de6, 0 0 20px #af9de6, 0 0 30px #af9de6;
 }
 
 .navibar a {
@@ -39,27 +40,103 @@ body {
 
 .navibar a:hover {
   color: #a2ad91;
-  font-size: 17px;
+  font-size: 16px;
+  text-shadow: 0 0 10px #a2ad91, 0 0 20px #a2ad91, 0 0 30px #a2ad91;
 }
 
 .home {
   height: 100vh;
+  background: linear-gradient(to bottom, rgba(200, 200, 200, 0.1), #fcc9e4 80%),
+    url("pic1.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   padding: 0 10%;
 }
+
 .home-content {
   max-width: 600px;
+  padding: 20px;
 }
 .home-content h1 {
   font-size: 56px;
   font-weight: 700;
+  line-height: 1.2;
+  text-shadow: 0 0 10px #af9de6, 0 0 20px #af9de6, 0 0 30px #af9de6;
 }
 .home-content h3 {
+  padding: 10% 0;
   font-size: 32px;
   font-weight: 700;
-  color: #af9de6;
+  color: #9c81f0;
+  text-shadow: 0 0 10px #af9de6, 0 0 20px #af9de6, 0 0 30px #af9de6;
 }
-.home-content p {
-  font-size: 16px;
+
+.home-content .btn-box {
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+}
+
+.btn-box a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background: #5f2b40;
+  border: 2px solid #5f2b40;
+  border-radius: 8px;
+  font-size: 17px;
+  color: #af9de6;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.btn-box a:hover {
+  color: #a2ad91;
+  font-size: 18px;
+  text-shadow: 0 0 10px #a2ad91, 0 0 20px #a2ad91, 0 0 30px #a2ad91;
+}
+
+.socials {
+  position: absolute;
+  bottom: 40px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 3px solid #af9de6;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #af9de6;
+  text-decoration: none;
+  text-shadow: 0 0 10px #af9de6, 0 0 20px #af9de6, 0 0 30px #af9de6;
+  transition: 3s;
+}
+
+.socials:hover {
+  color: transparent;
+  text-shadow: 0 0 10px #a2ad91, 0 0 20px #a2ad91, 0 0 30px #a2ad91;
+}
+
+.about,
+.projects,
+.contact {
+  padding: 50px;
+  background-color: #fcc9e4;
 }
