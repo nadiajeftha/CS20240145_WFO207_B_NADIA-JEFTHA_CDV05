@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+  /*header without hamburger for quicker navigation*/
   position: fixed;
   top: 0;
   left: 0;
@@ -22,6 +23,7 @@ body {
 }
 
 .logo {
+  /*glowing name logo*/
   font-weight: 600;
   font-size: 20px;
   color: #af9de6;
@@ -30,6 +32,7 @@ body {
 }
 
 .navibar a {
+  /*navbar text*/
   font-size: 15px;
   color: #af9de6;
   text-decoration: none;
@@ -61,6 +64,7 @@ body {
   padding: 20px;
 }
 .home-content h1 {
+  /*greeting with name to stand out*/
   font-size: 56px;
   font-weight: 700;
   line-height: 1.2;
@@ -76,6 +80,7 @@ body {
 }
 
 .home-content .btn-box {
+  /*2 buttons(I will activate the "hire me" button once i recieve my certificate and update resume*/
   display: flex;
   justify-content: space-between;
   width: 345px;
@@ -108,6 +113,7 @@ body {
 }
 
 .socials {
+  /*2 socials icons under btn*/
   position: absolute;
   bottom: 40px;
   width: 170px;
@@ -116,6 +122,7 @@ body {
 }
 
 .socials a {
+  /*glowing icons*/
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -138,6 +145,7 @@ body {
     0 0 40px #a2ad91, 0 0 50px #a2ad91;
 }
 
+/*all sections besides "home" have 1 bg color*/
 .about,
 .projects,
 .contact {
@@ -155,7 +163,7 @@ body {
   text-align: center;
 }
 .about h2 {
-  font-size: 36px;
+  font-size: 25px;
   margin-bottom: 20px;
   color: #5f2b40;
   text-align: center;
@@ -202,6 +210,7 @@ body {
 }
 
 .project-cards {
+  /*each project in their own card*/
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
